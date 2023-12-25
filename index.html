@@ -1,0 +1,916 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi">
+    <title>RAHAMAT - My Personal Portfolio</title>
+    <link rel="icon" type="image/png" href="images/logora.jfif">
+    <link rel="stylesheet" href="css/font-awesome-pro.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/scroll_button.css">
+    <link rel="stylesheet" href="css/plugin.css">
+    <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+
+  <body>
+    <!--================================
+        PRELOADER START
+    =================================-->
+    <div class="preloader">
+      <svg viewbox="0 0 1000 1000" preserveaspectratio="none">
+        <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+      </svg>
+      <h5 class="preloader-text">Loading</h5>
+    </div>
+    <!--================================
+        PRELOADER END
+    =================================-->
+    <!--================================
+        MENU START
+    =================================-->
+    <nav class="navbar navbar-expand-lg main_menu">
+      <div class="container main_menu_bg">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logora.jfif" alt="RAHAMAT" class="img-fluid w-100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-sharp fa-regular fa-bars bar_icon"></i>
+          <i class="fa-regular fa-xmark close_icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton active" href="index.html">Home</a>
+              <ul class="droap_menu">
+                <!-- <li><a href="index.html">Home 1</a></li>
+                <li><a href="index_2.html">Home 2</a></li> -->
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#">about us</a>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#service">services
+              </a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="#projects">Projects
+              </a>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link text_hover_animaiton" href="blog_list.html">blog <i class="far fa-angle-down"></i></a> -->
+              <!-- <ul class="droap_menu">
+                <li>
+                  <a href="blog_list.html">Blog List</a>
+                </li>
+                <li><a href="blog_details.html">Blog Details</a></li>
+              </ul> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text_hover_animaiton" href="contact.html">contact
+              </a>
+            </li>
+          </ul>
+          <span class="toggle_icon c-pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-sharp fa-sharp fa-regular fa-bars bar_icon-staggered"></i></span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+      <div class="offcanvas-header">
+        <a class="offcanvas-logo" href="index_2.html">
+          <img src="images/logora.jfif" alt="RAHAMAT" class="img-fluid w-100">
+        </a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+          <i class="fa-regular fa-xmark"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="tf__design_form offcanvas_form">
+          <div class="offcanvas-content-box">
+            <h4 class="offcanvas_title">About us</h4>
+            <p>
+              I am a full-stack web developer with expertise in Django,
+              Python, DRF, AWS, MySQL,HTML5, CSS, Linux, and JS.
+              I have experience developing and deploying web 
+              applications from scratch, including both the 
+              front-end and back-end components.
+            </p>
+          </div>
+          <div class="offcanvas_contact_form">
+            <h4 class="offcanvas_title">Get In Touch</h4>
+            <form action="#">
+              <input type="text" placeholder="Your Name" aria-autocomplete="list">
+              <input type="email" placeholder="Your Email">
+              <textarea rows="4" placeholder="Message"></textarea>
+              <button type="submit" class="common_btn">submit now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--================================
+        MENU END
+    =================================-->
+
+    <!--================================
+        BANNER START
+    =================================-->
+    <section class="tf__banner banner" style="background: url(images/bg/banner.jpg)">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xl-6 col-lg-8">
+            <div class="tf__banner_text">
+              <h1>
+                Hi, I'm ! Md Rahamat Ansari Creative
+                <span class="cd-headline rotate-1">
+                  <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
+                  <span class="cd-words-wrapper">
+                    <b class="is-visible">Software Engineer</b>
+                    <b>Coder</b>
+                    <b>Player</b>
+                  </span>
+                </span>
+              </h1>
+              <p>
+                As a dedicated software engineer, my expertise spans across a dynamic skill set that
+                encompasses Python, Django, MySQL, AWS, and other cutting-edge technologies. 
+                I am committed to leveraging this diverse toolkit to engineer innovative solutions 
+                and contribute to the evolution of software development in today's tech landscape.
+              </p>
+              <ul>
+                <li>
+                  <!-- <a class="common_btn" href="#">Download Cv <i class="fa-solid fa-arrow-down-to-line"></i></a> -->
+                  <a class="common_btn" href="https://drive.google.com/file/d/1-n7Bd0CkbXexP2VkJ9n3rKvH5hvFH6t3/view?usp=drive_link" download>Download CV <i class="fa-solid fa-arrow-down-to-line"></i></a>
+                  
+                </li>
+                <li>
+                  <a class="common_btn" href="https://www.linkedin.com/in/md-rahamat-ansari-5b350421b/" download>Visit LinkedIn Profile</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-4">
+            <div class="tf__banner_img">
+              <div class="img">
+                <img src="images/rah1.png" alt="ZYAN" class="img-fluid w-100"
+                style="border-radius: 200px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        BANNER END
+    =================================-->
+    <!--================================
+        SERVICE START
+    =================================-->
+    <section class="tf__service pt_130 xs_pt_80" id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 m-auto">
+            <div class="tf__section_heading mb_40">
+              <h5 class="has-animation">MY serivce</h5>
+              <h2 class="has-animation">
+                Crafting stories through <br>
+                design and innovation
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerid="service">
+              <span>
+                <img src="svg/website-design.svg" alt="service" class="svg w-100">
+              </span>
+              <h3>DataBase Develop</h3>
+              <p>
+                In today's information-driven world, efficient and organized 
+                data management is crucial for individuals, businesses, and 
+                organizations of all sizes. Database development plays a vital 
+                role in achieving this goal by providing a structured framework 
+                for storing, retrieving, manipulating, and analyzing data. It's 
+                the backbone of information management, facilitating seamless
+                access and utilization of valuable information for diverse purposes.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerid="service">
+              <span>
+                <img src="svg/logo-design.svg" alt="service" class="svg w-100">
+              </span>
+              <h3>Website Develop</h3>
+              <p>
+                In today's digital age, a well-designed and functional website is 
+                a crucial element for any individual or business seeking to establish 
+                a strong online presence. Website development encompasses the various 
+                skills and processes involved in creating and maintaining websites, 
+                ranging from planning and design to coding and deployment.ui
+
+
+
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="tf__single_service fade_left" data-trigerid="service">
+              <span>
+                <img src="svg/app-development.svg" alt="service" class="svg w-100">
+              </span>
+              <h3>Api Development</h3>
+              <p>
+                Application Programming Interfaces (APIs) are the hidden heroes 
+                of the digital world, enabling seamless communication and data 
+                exchange between various applications. They act as the bridge, 
+                allowing developers to connect and integrate functionalities from 
+                different systems, creating a more robust and interconnected ecosystem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        SERVICE END
+    =================================-->
+
+    <!--================================
+        ABOUT START
+    =================================-->
+    <section class="tf__about pt_140 xs_pt_80" id="about">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xxl-7 col-lg-6 col-xl-6">
+            <div class="tf__section_heading pb_80 xs_pb_50">
+              <h5 class="has-animation">About Me</h5>
+              <h2 class="has-animation">
+                Transforming visions into exceptional portfolios
+              </h2>
+            </div>
+            <div class="tf__about_text">
+              <p>
+                I am a full-stack web developer with expertise in Django,
+                Python, DRF, AWS, HTML, CSS, Linux, and MySQL. I have
+                experience developing and deploying web applications 
+                from scratch,including both the front-end and back-end components.
+              </p>
+              <a class="common_btn" href="https://drive.google.com/file/d/1pfpSyOZn4qILP36lV2mS46ekUQ1YNzy6/view?usp=drive_link">Download Cv <i class="fa-solid fa-arrow-down-to-line"></i></a>
+      
+            </div>
+          </div>
+          <div class="col-xxl-4 col-lg-6 col-xl-6">
+            <div class="tf__about_img fade_right" data-trigerid="about">
+              <img src="images/rah3.jpeg" alt="RAHAMAT" class="img-fluid w-100">
+              <div class="tf__about_img_text">
+                <i class="fas fa-chart-pie-alt"></i>
+                <div class="tf__about_content">
+                  <h4>Daily Activity</h4>
+                  <p>Loream is ispam</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        ABOUT END
+    =================================-->
+
+    <!--================================
+        DESIGN START
+    =================================-->
+    <section class="tf__design mt_135 xs_mt_40 mb_120 xs_mb_80" id="counter">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__design_text">
+              <h2>Develop <span> and Innovation</span></h2>
+              <p class="">
+                Development and innovation are often used interchangeably,
+                but they represent distinct concepts in the realm of ideas 
+                and progress. While both contribute significantly to advancement,
+                their approaches and outcomes differ significantly.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-xl-6 col-md-6">
+                <div class="tf__design_counter fade_left" data-trigerid="counter">
+                  <span class="icon">
+                    <img src="svg/complete-project.svg" alt="counter" class="svg img-fluid w-100">
+                  </span>
+                  <h3><span class="counter">10</span>k+</h3>
+                  <p>Complete project</p>
+                </div>
+              </div>
+              <div class="col-xl-6 col-md-6">
+                <div class="tf__design_counter fade_left" data-trigerid="counter">
+                  <span class="icon">
+                    <img src="svg/client-review.svg" alt="counter" class="img-fluid w-100 svg">
+                  </span>
+                  <h3><span class="counter">800</span>+</h3>
+                  <p>Client review</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__design_form">
+              <h2 class="has-animation">GET TOUCH ME?</h2>
+              <p class="">
+                For your car we will do everything advice design in us repairs
+                and maintenance We are the some preferred.
+              </p>
+              <form action="#">
+                <input class="" type="text" placeholder="Your Name">
+                <input class="" type="email" placeholder="Your Email">
+                <input class="" type="text" placeholder="Phone Number">
+                <textarea class="" rows="4" placeholder="Message"></textarea>
+                <button type="submit" class="common_btn">submit now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        DESIGN END
+    =================================-->
+
+    <!--================================
+        SKILLS START
+    =================================-->
+    <section class="tf__skills pt_115 xs_pt_75 pb_70 xs_pb_30" id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10 col-lg-8 m-auto mb_60">
+            <div class="tf__section_heading mb_40">
+              <h5 class="has-animation">Education & Skill</h5>
+              <h2 class="has-animation">
+                Showcasing your talent <br>
+                amplifying your impact
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".13">
+              <span>2021 - 2023</span>
+              <h3>Python Developer</h3>
+              <p>
+                Python, a powerful and versatile programming language,
+                has become an essential skill for anyone interested in 
+                technology and its applications. Its ease of learning, 
+                combined with its extensive functionalities,
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <span>2021 - 2023</span>
+              <h3>Django Developer</h3>
+              <p>
+                Django is a high-level Python web framework designed to facilitate 
+                the rapid development of secure and maintainable web applications. 
+                Its robust features and extensive functionalities make it a popular 
+                choice for developers of all skill levels.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <span>2017 - 2020</span>
+              <h3>Nilamber Pitamber University(BCA)</h3>
+              <p>
+                Nilamber Pitamber University (NPU), situated in Medininagar, 
+                Jharkhand, India, offers a comprehensive and rewarding academic 
+                journey for aspiring IT professionals.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <span>2020 - 2023</span>
+              <h3>Ramchandra Chandravansi University(MCA)</h3>
+              <p>
+                Ramchandra Chandravansi University (RCU), 
+                located in Palamu, India, offers a Master 
+                of Computer Applications (MCA) program that 
+                equips students with the knowledge and skills 
+                needed to thrive in the ever-evolving IT industry.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <p>Python</p>
+              <div id="bar1" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="60"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <p>Django Rest Framework</p>
+              <div id="bar2" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="90"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <p>MySql</p>
+              <div id="bar3" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="10"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <p>Amazon Web Services(AWS)</p>
+              <div id="bar4" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="70"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <p>Linux</p>
+              <div id="bar5" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="70"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <p>HTML5</p>
+              <div id="bar6" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="80"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <p>CSS</p>
+              <div id="bar6" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="80"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+              <p>Swagger</p>
+              <div id="bar6" class="barfiller">
+                <div class="tipWrap">
+                  <span class="tip"></span>
+                </div>
+                <span class="fill" data-percentage="80"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        SKILLS END
+    =================================-->
+
+    <!--================================
+        PORTFOLIO START
+    =================================-->
+    <section class="tf__portfolio mt_120 xs_mt_80" id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10 col-lg-9 mb_30">
+            <div class="tf__section_heading">
+              <h5 class="has-animation">my recent Portfolio</h5>
+              <h2 class="has-animation">
+                Elevate your brand to new <br>
+                heights with our portfolio expertise
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-8 col-md-6">
+            <a href="https://github.com/mdrahamtansari123" class="tf__portfolio_item play_btn" data-cursor="Watch">
+              <img src="images/portfolio/project.png" alt="portfolio" class="img-fluid w-100">
+              <div class="text">
+                <h4>Dambaruu Project</h4>
+                
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <a class="tf__portfolio_item play_btn" href="https://dambaruu.com/" data-cursor="Watch">
+              <img src="images/portfolio/2.jpg" alt="portfolio" class="img-fluid w-100">
+              <div class="text">
+               
+           
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-6 col-md-6">
+            <!-- <a href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F159967086&show_artwork=true&maxwidth=1020&maxheight=1000&auto_play=1" class="tf__portfolio_item play_btn" data-cursor="Audio <br> sound"> -->
+              <img src="images/portfolio/3.jpg" alt="portfolio" class="img-fluid w-100">
+              <div class="text">
+                <h4>sheet metal bending</h4>
+                <p>soundcloud</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-6 col-md-6">
+            <a href="images/portfolio/4.jpg" class="tf__portfolio_item image_popup" data-cursor="View <br> Image">
+              <img src="images/portfolio/4.jpg" alt="portfolio" class="img-fluid w-100">
+              <div class="text">
+                <h4>sheet metal bending</h4>
+                <p>Image</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        PORTFOLIO END
+    =================================-->
+
+    <!--================================
+        TESTIMONIAL START
+    =================================-->
+    <section class="tf__testimonial pt_115 xs_pt_75">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 m-auto mb_30">
+            <div class="tf__section_heading">
+              <h5 class="has-animation">clients review</h5>
+              <h2 class="has-animation">My testomonial</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row testi_slider">
+          <div class="col-xl-6">
+            <div class="tf__single_testimonial">
+              <div class="img">
+                <img src="images/testimonial/1.jpg" alt="clients" class="img-fluid w-100">
+              </div>
+              <p class="rating">
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+              </p>
+              <h3>Eleanor pena</h3>
+              <h5>Marketing Coordinator</h5>
+              <p class="description">
+                Financial planners help people to knowledge in about how to
+                invest and in save their moneye the most efficient way eve plan
+                ners help people tioniio know ledige in about how.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="tf__single_testimonial">
+              <div class="img">
+                <img src="images/testimonial/2.jpg" alt="clients" class="img-fluid w-100">
+              </div>
+              <p class="rating">
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+              </p>
+              <h3>Eleanor pena</h3>
+              <h5>Marketing Coordinator</h5>
+              <p class="description">
+                Financial planners help people to knowledge in about how to
+                invest and in save their moneye the most efficient way eve plan
+                ners help people tioniio know ledige in about how.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="tf__single_testimonial">
+              <div class="img">
+                <img src="images/testimonial/1.jpg" alt="clients" class="img-fluid w-100">
+              </div>
+              <p class="rating">
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+                <i class="fa-solid fa-star-sharp"></i>
+              </p>
+              <h3>Eleanor pena</h3>
+              <h5>Marketing Coordinator</h5>
+              <p class="description">
+                Financial planners help people to knowledge in about how to
+                invest and in save their moneye the most efficient way eve plan
+                ners help people tioniio know ledige in about how.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+        TESTIMONIAL END
+    =================================-->
+
+    <!--================================
+        BRAND START
+    =================================-->
+    <!-- <div class="tf__brand mt_120 xs_mt_80">
+      <div class="row">
+        <div class="col-12">
+          <div class="marquee_animi">
+            <ul>
+              <li>* PHP</li>
+              <li>* Pyrhon</li>
+              <li>* design</li>
+              <li>* world</li>
+              <li>* Development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--================================
+        BRAND END
+    =================================-->
+
+    <!--================================
+        BLOG START
+    =================================-->
+    <section class="tf__blog pt_125 xs_pt_75 pb_40 xs_pb_0" id="blogs">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 col-lg-9 mb_30">
+            <div class="tf__section_heading">
+              <h5 class="has-animation">My blog</h5>
+              <h2 class="has-animation">
+                Unlocking the potential of your personal brand
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-6">
+            <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
+              <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
+                <img src="images/blog/1.jpg" alt="blog" class="img-fluid w-100">
+              </a>
+              <div class="tf__blog_text">
+                <span>31 December,2022</span>
+                <ul>
+                  <li>
+                    <i class="fa-sharp fa-solid fa-circle-user"></i> By admin
+                  </li>
+                  <li>
+                    <i class="fa-sharp fa-solid fa-comments"></i> Comments (05)
+                  </li>
+                </ul>
+                <a href="blog_details.html">The standard personal My portfolio</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
+              <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
+                <img src="images/blog/2.jpg" alt="blog" class="img-fluid w-100">
+              </a>
+              <div class="tf__blog_text">
+                <span>31 December,2022</span>
+                <ul>
+                  <li>
+                    <i class="fa-sharp fa-solid fa-circle-user"></i> By admin
+                  </li>
+                  <li>
+                    <i class="fa-sharp fa-solid fa-comments"></i> Comments (05)
+                  </li>
+                </ul>
+                <a href="blog_details.html">The standard personal My portfolio</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
+              <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
+                <img src="images/blog/3.jpg" alt="blog" class="img-fluid w-100">
+              </a>
+              <div class="tf__blog_text">
+                <span>31 December,2022</span>
+                <ul>
+                  <li>
+                    <i class="fa-sharp fa-solid fa-circle-user"></i> By admin
+                  </li>
+                  <li>
+                    <i class="fa-sharp fa-solid fa-comments"></i> Comments (05)
+                  </li>
+                </ul>
+                <a href="blog_details.html">The standard personal My portfolio</a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-12">
+            <a href="blog_list.html" class="common_btn">More Blog +</a>
+          </div> -->
+        </div>
+      </div>
+    </section> -->
+    <!--================================
+        BLOG END
+    =================================-->
+    <!--================================
+        SUBSCRIBE START
+    =================================-->
+    <div class="tf__subscribe" style="background: url(images/bg/subscribe.jpg)">
+      <div class="tf__subscribe_overlay pt_115 xs_pt_75 pb_120 xs_pb_80">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-8 col-md-10 m-auto">
+              <div class="tf__subscribe_text">
+                <h3 class="has-animation">SUBSCRIBE MY NEWSLETTER</h3>
+                <form action="#" class="">
+                  <input type="text" placeholder="Enter Your Email">
+                  <button type="submit" class="common_btn">Notify Now</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--================================
+SUBSCRIBE END
+=================================-->
+
+    <!--================================
+        FOOTER START
+    =================================-->
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <div class="pt_120 xs_pt_80 sm_pt_80">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div
+                  class="tf__footer_content fade_right"
+                  data-trigerId="footer"
+                  data-stagger=".25"
+                >
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img
+                        src="svg/map.svg"
+                        alt="footer"
+                        class="img-fluid w-100 svg">
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>Address</h3>
+                    <p>Koshiyar ,Bishrampur (Palamu) . Ranchi, (Jharkhand) 822132</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div
+                  class="tf__footer_content fade_right"
+                  data-trigerId="footer"
+                  data-stagger=".25"
+                >
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img
+                        src="svg/phone.svg"
+                        alt="footer"
+                        class="img-fluid w-100 svg">
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>For Contacting Me</h3>
+                    <a href="callto:1234567890">+91 8651684270</a>
+                    <!-- <a href="callto:1234567890">(603) 555-0123</a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div
+                  class="tf__footer_content fade_right"
+                  data-trigerId="footer"
+                  data-stagger=".25"
+                >
+                  <div class="icon">
+                    <div class="icon-contianer">
+                      <img
+                        src="svg/envelope.svg"
+                        alt="footer"
+                        class="img-fluid w-100 svg">
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>Send Me email</h3>
+                    <a href="rahamatansari326@gmail.com"
+                      >rahamatansari326@gmail.com</a
+                    >
+                    <a href="rahatansari326@gmail.com">rahatansari326@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="tf__footer_copyright">
+                  <p>© Rahamat Ansari 2023 | All Rights Reserved</p>
+                  <ul>
+                    <li>
+                      <a href="#" class="text_hover_animaiton"
+                        >Terms & Condition</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text_hover_animaiton"
+                        >Privacy Policy</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text_hover_animaiton">Sitemap</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--================================
+  FOOTER END
+=================================-->
+    <!--================================
+        SCROLL BUTTON START
+    =================================-->
+    <div class="progress active c-pointer">
+      <svg class="progress-svg" width="100%" height="100%" viewbox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+      </svg>
+    </div>
+    <!--================================
+        SCROLL BUTTON END
+    =================================-->
+
+    <!--================================
+        CURSOR START
+    =================================-->
+    <div id="magic-cursor">
+      <div id="ball"></div>
+    </div>
+    <!--================================
+        CURSOR END
+    =================================-->
+
+    <script src="js/plugin.js"></script>
+    <!--scroll button js-->
+    <script src="js/scroll_button.js"></script>
+    <script src="download.js"></script>
+    <!--sticky sidebar js-->
+    <script src="js/sticky_sidebar.js"></script>
+    <!-- Animation -->
+    <script src="js/animation.js"></script>
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
